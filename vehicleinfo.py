@@ -143,61 +143,61 @@ class VehicleInfo(object):
                 "default_params_filename": ["default_params/copter.parm",
                                             "default_params/gazebo-drone1.parm"],
             },
-            "gazebo-drone2": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone2.parm"],
-            },
-            "gazebo-drone3": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone3.parm"],
-            },
-            "gazebo-drone4": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone4.parm"],
-            },
-            "gazebo-drone5": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone5.parm"],
-            },
-            "gazebo-drone6": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone6.parm"],
-            },
-            "gazebo-drone7": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone7.parm"],
-            },
-            "gazebo-drone8": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone8.parm"],
-            },
-            "gazebo-drone9": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone9.parm"],
-            },
-            "gazebo-drone10": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone10.parm"],
-            },
-            "gazebo-drone11": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone11.parm"],
-            },
-            "gazebo-drone12": {
-                "waf_target": "bin/arducopter",
-                "default_params_filename": ["default_params/copter.parm",
-                                            "default_params/gazebo-drone12.parm"],
-            },
+            # "gazebo-drone2": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone2.parm"],
+            # },
+            # "gazebo-drone3": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone3.parm"],
+            # },
+            # "gazebo-drone4": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone4.parm"],
+            # },
+            # "gazebo-drone5": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone5.parm"],
+            # },
+            # "gazebo-drone6": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone6.parm"],
+            # },
+            # "gazebo-drone7": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone7.parm"],
+            # },
+            # "gazebo-drone8": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone8.parm"],
+            # },
+            # "gazebo-drone9": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone9.parm"],
+            # },
+            # "gazebo-drone10": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone10.parm"],
+            # },
+            # "gazebo-drone11": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone11.parm"],
+            # },
+            # "gazebo-drone12": {
+            #     "waf_target": "bin/arducopter",
+            #     "default_params_filename": ["default_params/copter.parm",
+            #                                 "default_params/gazebo-drone12.parm"],
+            # },
             "airsim-copter": {
                 "waf_target": "bin/arducopter",
                 "default_params_filename": ["default_params/copter.parm",
