@@ -111,13 +111,25 @@ It should open the following world in gazebo
 roscd drone_swarming/SITL
 bash ./startSITL.sh
 ```
-It should open a new terminal window with 12 tabs like this    
+It should open a new terminal window with SITL. Wait until it shows "GPS is detected" as shown below  
 <div align="center">
   <img src="img-videos/SITL.png" alt="SITL-img" />
 </div>
 
-If the above 2 steps are successfull on your system then setup is done. You can close the 2 processes for now.    
-First step for drone swarming is to generate the target data for each drone to follow for pattern formation.    
-Below are the steps for same.
+Now try to control the drone through this sitl using the MAVLINK commands. Run the below commands one by one as shown in the video below.
+
+```
+mode guided
+arm throttle
+takeoff 5
+mode land
+```
+
+https://github.com/ab31mohit/drone/assets/99829827/6bfa118b-42a6-41cd-b4fa-a815e07d07c0
+
+If the above steps are successfull on your system then setup is done.
+
+
+
 
 
