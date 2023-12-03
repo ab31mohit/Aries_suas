@@ -71,7 +71,7 @@ echo 'export GAZEBO_MODEL_PATH=~/ardupilot_gazebo/models' >> ~/.bashrc
 cd
 mkdir -p suas_ws/src
 cd suas_ws/src
-git clone https://github.com/ab31mohit/Aries_suas.git
+git clone https://github.com/ab31mohit/drone.git
 cd ..
 catkin_make
 ```
