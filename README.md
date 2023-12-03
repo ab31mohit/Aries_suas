@@ -105,7 +105,7 @@ It should open the following world in gazebo
 
 - Open a new tab of the terminal and run
 ```
-roscd drone_swarming/SITL
+roscd drone/SITL
 bash ./startSITL.sh
 ```
 It should open a new terminal window with SITL. Wait until it shows "GPS is detected" as shown below  
